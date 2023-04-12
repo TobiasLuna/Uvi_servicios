@@ -256,6 +256,21 @@ nav
     }
 
 }
+@media only screen and (max-width: 1400px)
+{
+    #inicio #text_descrcipcion p
+    {
+          width: 486px;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    #inicio #img_descripcion img
+    {
+        width: 127px;
+        height: 200px;
+    }
+}
 /*Fin descripcion*/
 
 /*Servicios*/
@@ -318,7 +333,18 @@ nav
       width: 200px;
       height: 200px;
     }
-
+    .text p
+    {
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    .img_servicio img
+    {
+      width: 177px;
+      height: 200px;
+    }
 }
 /*Fin de servicio*/
 
