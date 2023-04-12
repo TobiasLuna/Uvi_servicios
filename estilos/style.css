@@ -237,9 +237,12 @@ nav
 @media only screen and (max-width: 1200px)
 {
  
+    #inicio #text_descrcipcion{
+        width: calc(65% - 50px)
+    }
     #inicio #text_descrcipcion p
     {
-          width: auto;
+          width: 200px;
     }
     #inicio #img_descripcion img
     {
@@ -315,10 +318,7 @@ nav
       width: 200px;
       height: 200px;
     }
-    .text p
-    {
-        width: 150px;
-    }
+
 }
 /*Fin de servicio*/
 
@@ -376,7 +376,14 @@ nav
     font-size: 14px;
     margin-left: 10px;
 }
+@media only screen and (max-width: 500px)
+{
+    .tarjeta
+    {
+        height: 300px;
+    }
 
+}
 /*Fin de reseña*/
 
 #plan
