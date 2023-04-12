@@ -256,13 +256,7 @@ nav
     }
 
 }
-@media only screen and (max-width: 1400px)
-{
-    #inicio #text_descrcipcion p
-    {
-          width: 486px;
-    }
-}
+
 @media only screen and (max-width: 500px)
 {
     #inicio #img_descripcion img
