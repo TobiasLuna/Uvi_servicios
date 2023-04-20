@@ -152,10 +152,8 @@ nav
 }
 #inicio #text_descrcipcion
 {
-    margin-left: 50px;
     background-color: rgba(0,0,0,.2);
     backdrop-filter: blur(13px);
-    height: 350px;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -189,6 +187,7 @@ nav
     font-size: 16px;
     text-decoration: none;
     margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
 }
@@ -209,10 +208,10 @@ nav
 
 @media only screen and (max-width: 500px)
 {
-    #inicio #img_descripcion img
+    #inicio #text_descrcipcion
     {
-        width: 127px;
-        height: 200px;
+        width: auto;
+        margin:10px;
     }
 }
 /*Fin descripcion*/
