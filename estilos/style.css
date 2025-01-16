@@ -134,7 +134,7 @@ nav
 /*Descripcion*/
 #inicio
 {
-    background-image: url("/img/bskvgound.jpg");
+    background-image: url("../img/bskvgound.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
